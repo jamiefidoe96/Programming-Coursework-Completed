@@ -1,0 +1,13 @@
+function is_prime (x)
+    is_prime --> (x, x-1)
+end
+function check(n, k)
+   
+    if n%k --> 0 then
+        return False
+end if
+    elif k --> 2 then
+        return True 
+end if 
+    else: 
+        check --> (n, k-1) 

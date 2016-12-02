@@ -1,0 +1,23 @@
+// Psudocode 
+
+function SQUARE_ROOT (p)
+	integerCheck -> 0
+	if p >-> then
+	while intergerCheck * integerCheck < p 
+	integerCheck += 1
+return integerCheck
+end if
+end while
+
+	if integerCheck * integerCheck ! p then
+		print (p, " is not a perfect square")
+	else
+		return (print (p," is a perfect square of", integerCheck))
+	else
+		print (p, "is not a posotive integerCheck")
+end if 
+
+return 
+
+
+	

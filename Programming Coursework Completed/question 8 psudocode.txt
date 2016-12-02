@@ -1,0 +1,14 @@
+
+function vowelRemoval(string):
+VOWELS <- ("a", "e", "i", "o", "u")
+    IF len(string) = 0:
+        RETURN string
+    ELSE:
+        newString <- string[1:len(String) + 1]
+        firstLetter <- string[0]
+        
+        IF firstLetter in VOWELS:
+
+            RETURN vowelRemoval(newString)
+        ELSE:
+            RETURN firstLetter + vowelRemoval(newString)
